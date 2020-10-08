@@ -72,15 +72,37 @@ WSGI_APPLICATION = 'credixo_api.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
+"""
+Commenting the Default SQL Database.
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
+"""
+Commands and Queries run on the POSTgreSQL
+CREATE DATABASE credicxo_db;
+CREATE USER superuser WITH PASSWORD 'password';
+ALTER ROLE superuser SET client_encoding TO 'utf8';
+ALTER ROLE superuser SET default_transaction_isolation TO 'read committed';
+ALTER ROLE superuser SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE credicxo TO superuser;
+"""
+"""
+Configuration for the POSTgreSQL Database
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'credicxo_db',
+        'USER': 'superuser',
+        'PASSWORD': 'Singo*1995',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
