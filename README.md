@@ -32,7 +32,7 @@ JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyan
 **POST** 127.0.0.1:8000/api/users/  
 **Headers**  
 **Authorization**  
-JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyanVuMUBnbWFpbC5jb20iLCJleHAiOjE2MDIxNTIzODcsImVtYWlsIjoiYXJqdW4xQGdtYWlsLmNvbSJ9.6gm-67-25yIpkt7q5XLA01nkYR0jFV1fvDhgl3ayYg4>
+JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyanVuMUBnbWFpbC5jb20iLCJleHAiOjE2MDIxNTIzODcsImVtYWlsIjoiYXJqdW4xQGdtYWlsLmNvbSJ9.6gm-67-25yIpkt7q5XLA01nkYR0jFV1fvDhgl3ayYg4>  
 **Content-Type**  
 application/json  
 **Body**  
@@ -47,7 +47,7 @@ application/json
 **POST** 127.0.0.1:8000/api/users/1/    
 **Headers**  
 **Authorization**  
-JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyanVuMUBnbWFpbC5jb20iLCJleHAiOjE2MDIxNTIzODcsImVtYWlsIjoiYXJqdW4xQGdtYWlsLmNvbSJ9.6gm-67-25yIpkt7q5XLA01nkYR0jFV1fvDhgl3ayYg4>
+JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyanVuMUBnbWFpbC5jb20iLCJleHAiOjE2MDIxNTIzODcsImVtYWlsIjoiYXJqdW4xQGdtYWlsLmNvbSJ9.6gm-67-25yIpkt7q5XLA01nkYR0jFV1fvDhgl3ayYg4>  
 **Content-Type**  
 application/json  
 
