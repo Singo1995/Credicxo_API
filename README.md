@@ -20,6 +20,8 @@ sqlparse==0.4.1
 toml==0.10.1
 wrapt==1.12.1
 
+#### In the Setting.py file configure the mail sending part with your gmailid and password.  
+  
 ## API's  
 #### List User  
 
