@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'api',#added
     'rest_framework',#added
     'rest_framework.authtoken',#added
-    'rest_auth',#added                
+    'rest_auth',#added   
+    'django_rest_passwordreset',#added             
 ]
 
 MIDDLEWARE = [
@@ -79,12 +80,12 @@ WSGI_APPLICATION = 'credixo_api.wsgi.application'
 """
 Commenting the Default SQL Database.
 """
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 """
 Commands and Queries run on the POSTgreSQL
 CREATE DATABASE credicxo_db;
@@ -125,6 +126,19 @@ REST_FRAMEWORK = {
 }
 
 REST_USE_JWT = True
+
+"""
+Using the Email Backend for the Password Reset Mail Service.
+Please add your own gmail and password
+"""
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'surendersingh1995nov@gmail.com'#email for your gmail
+EMAIL_HOST_PASSWORD = 'Singo*1995'#password
+
 """
 Using the Custom User Model Hence required.
 """

@@ -32,7 +32,7 @@ class UserViewSet(viewsets.ModelViewSet):
     Setting the permissions to acces the API's Created
     """
     def get_permissions(self):
-        # print('self.action',self.action)
+        print('self.action',self.action)
         permission_classes = []
         if self.action == 'create':
             permission_classes = [CreatePermission]
