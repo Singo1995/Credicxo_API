@@ -20,8 +20,8 @@ sqlparse==0.4.1
 toml==0.10.1
 wrapt==1.12.1
 
-## API's
-#### List User
+## API's  
+#### List User  
 
 **GET** 127.0.0.1:8000/api/users/
 **Headers**
