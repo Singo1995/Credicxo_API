@@ -20,6 +20,9 @@ sqlparse==0.4.1
 toml==0.10.1
 wrapt==1.12.1
 
+#### Before proceeding first create three roles in Group  (Super-admin, Teacher, Student)  
+#### in the same case because the roles is a foreign key with default in the UserProfile.    
+
 #### In the Setting.py file configure the mail sending part with your gmailid and password.  
   
 ## API's  
