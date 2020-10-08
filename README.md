@@ -23,28 +23,28 @@ wrapt==1.12.1
 ## API's  
 #### List User  
 
-**GET** 127.0.0.1:8000/api/users/
-**Headers**
-**Authorization**
-JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyanVuMUBnbWFpbC5jb20iLCJleHAiOjE2MDIxNTIzODcsImVtYWlsIjoiYXJqdW4xQGdtYWlsLmNvbSJ9.6gm-67-25yIpkt7q5XLA01nkYR0jFV1fvDhgl3ayYg4>
-**Content-Type**
-application/json
+**GET** 127.0.0.1:8000/api/users/  
+**Headers**  
+**Authorization**  
+JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyanVuMUBnbWFpbC5jb20iLCJleHAiOjE2MDIxNTIzODcsImVtYWlsIjoiYXJqdW4xQGdtYWlsLmNvbSJ9.6gm-67-25yIpkt7q5XLA01nkYR0jFV1fvDhgl3ayYg4>  
+**Content-Type**  
+application/json  
 
-#### Create User
-**POST** 127.0.0.1:8000/api/users/
-**Headers**
-**Authorization**
+#### Create User  
+**POST** 127.0.0.1:8000/api/users/  
+**Headers**  
+**Authorization**  
 JWT <eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFyanVuMUBnbWFpbC5jb20iLCJleHAiOjE2MDIxNTIzODcsImVtYWlsIjoiYXJqdW4xQGdtYWlsLmNvbSJ9.6gm-67-25yIpkt7q5XLA01nkYR0jFV1fvDhgl3ayYg4>
-**Content-Type**
-application/json
-**Body**
->{
->   "email": "abc@gmail.com",
->    "password": "yourpassword",
->    "profile": {
->       "group":3
->    }
->}
+**Content-Type**  
+application/json  
+**Body**  
+>{  
+>   "email": "abc@gmail.com",  
+>    "password": "yourpassword",  
+>    "profile": {  
+>       "group":3  
+>    }  
+>}  
 
 
 
