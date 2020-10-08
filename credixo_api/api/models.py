@@ -25,4 +25,4 @@ class UserProfile(models.Model):
     Having three user levels Super-admin, Teacher, Student.
     Default is Student which is 3.
     """
-    # group = models.ForeignKey(Group,on_delete=models.CASCADE,default=3)
+    group = models.ForeignKey(Group,on_delete=models.CASCADE,default=3)
